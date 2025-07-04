@@ -60,7 +60,7 @@ public class ParkingLotMain {
 
             EntranceGate gate = entranceGates.get(rand.nextInt(NUM_GATES));
             Gate referenceGate = gates.get(rand.nextInt(NUM_GATES));
-            ParkingStrategy strategy = getRandomStrategy(spotRegistry, rand);
+            ParkingStrategy strategy = getRandomStrategy(spotRegistry);
 
             try {
                 ParkingSpot spot = gate.findParkingSpace(vehicle, spots, strategy, referenceGate);
@@ -99,8 +99,8 @@ public class ParkingLotMain {
         }
     }
 
-    private ParkingStrategy getRandomStrategy(SpotRegistry registry, Random rand) {
-        int strategyType = rand.nextInt(3);
+    private ParkingStrategy getRandomStrategy(SpotRegistry registry) {
+        int strategyType = ParkingLotMain.rand.nextInt(3);
         return switch (strategyType) {
             case 0 -> new DefaultParkingStrategy();
             case 1 -> new NearestToGateParkingStrategy(registry);

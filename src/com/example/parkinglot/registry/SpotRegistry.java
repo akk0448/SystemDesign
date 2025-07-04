@@ -6,9 +6,6 @@ import com.example.parkinglot.models.ParkingSpot;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static com.example.parkinglot.enums.VehicleType.FOUR_WHEELER;
-import static com.example.parkinglot.enums.VehicleType.TWO_WHEELER;
-
 public class SpotRegistry {
 
     private final Map<VehicleType, NavigableSet<ParkingSpot>> emptySpotsMap = new ConcurrentHashMap<>();
