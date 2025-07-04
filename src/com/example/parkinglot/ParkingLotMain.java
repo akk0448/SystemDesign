@@ -72,6 +72,7 @@ public class ParkingLotMain {
                         " using " + strategy.getClass().getSimpleName() +
                         " via entrance " + gate.getGateName() + " at position " + gate.getPosition() +
                         " (strategy reference: " + referenceGate.getGateName() + " at position " + referenceGate.getPosition() + ")");
+                System.out.println(ticket);
             } catch (Exception e) {
                 System.out.println("❌ Failed to park " + vehicle.getVehicleNo() + ": " + e.getMessage());
             }

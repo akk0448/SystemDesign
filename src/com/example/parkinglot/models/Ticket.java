@@ -1,15 +1,17 @@
 package com.example.parkinglot.models;
 
+import java.time.LocalDateTime;
+
 import static com.example.parkinglot.utils.ApplicationUtils.generateTicketId;
 
 public class Ticket {
 
     private final String id;
-    private final long entryTime;
+    private final LocalDateTime entryTime;
     private final ParkingSpot parkingSpot;
     private final Vehicle vehicle;
 
-    public Ticket(long entryTime, ParkingSpot parkingSpot, Vehicle vehicle) {
+    public Ticket(LocalDateTime entryTime, ParkingSpot parkingSpot, Vehicle vehicle) {
         this.id = generateTicketId();
         this.entryTime = entryTime;
         this.parkingSpot = parkingSpot;
@@ -20,7 +22,7 @@ public class Ticket {
         return id;
     }
 
-    public long getEntryTime() {
+    public LocalDateTime getEntryTime() {
         return entryTime;
     }
 

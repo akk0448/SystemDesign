@@ -4,6 +4,7 @@ import com.example.parkinglot.factory.ParkingSpotManagerFactory;
 import com.example.parkinglot.registry.SpotRegistry;
 import com.example.parkinglot.strategy.ParkingStrategy;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class EntranceGate extends Gate {
@@ -23,7 +24,6 @@ public class EntranceGate extends Gate {
         }
 
         parkingSpot.parkVehicle(vehicle, spotRegistry);
-        long entryTime = System.currentTimeMillis();
-        return new Ticket(entryTime, parkingSpot, vehicle);
+        return new Ticket(LocalDateTime.now(), parkingSpot, vehicle);
     }
 }
