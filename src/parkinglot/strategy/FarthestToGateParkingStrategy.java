@@ -1,8 +1,8 @@
-package com.example.parkinglot.strategy;
+package parkinglot.strategy;
 
-import com.example.parkinglot.models.Gate;
-import com.example.parkinglot.models.ParkingSpot;
-import com.example.parkinglot.registry.SpotRegistry;
+import parkinglot.models.Gate;
+import parkinglot.models.ParkingSpot;
+import parkinglot.registry.SpotRegistry;
 
 import java.util.Comparator;
 import java.util.NavigableSet;

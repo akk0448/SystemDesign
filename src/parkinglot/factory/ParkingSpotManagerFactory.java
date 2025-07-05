@@ -1,11 +1,11 @@
-package com.example.parkinglot.factory;
+package parkinglot.factory;
 
-import com.example.parkinglot.enums.VehicleType;
-import com.example.parkinglot.models.FourWheelerManager;
-import com.example.parkinglot.models.ParkingSpot;
-import com.example.parkinglot.models.ParkingSpotManager;
-import com.example.parkinglot.models.TwoWheelerManager;
-import com.example.parkinglot.strategy.ParkingStrategy;
+import parkinglot.enums.VehicleType;
+import parkinglot.models.FourWheelerManager;
+import parkinglot.models.ParkingSpot;
+import parkinglot.models.ParkingSpotManager;
+import parkinglot.models.TwoWheelerManager;
+import parkinglot.strategy.ParkingStrategy;
 
 import java.util.List;
 

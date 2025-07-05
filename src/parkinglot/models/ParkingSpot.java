@@ -1,7 +1,7 @@
-package com.example.parkinglot.models;
+package parkinglot.models;
 
-import com.example.parkinglot.enums.VehicleType;
-import com.example.parkinglot.registry.SpotRegistry;
+import parkinglot.enums.VehicleType;
+import parkinglot.registry.SpotRegistry;
 
 import java.time.LocalDateTime;
 

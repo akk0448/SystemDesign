@@ -1,6 +1,6 @@
-package com.example.parkinglot.models;
+package parkinglot.models;
 
-import static com.example.parkinglot.enums.VehicleType.FOUR_WHEELER;
+import static parkinglot.enums.VehicleType.FOUR_WHEELER;
 
 public class FourWheelerSpot extends ParkingSpot {
 

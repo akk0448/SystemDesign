@@ -1,8 +1,8 @@
-package com.example.parkinglot.models;
+package parkinglot.models;
 
-import com.example.parkinglot.factory.ParkingSpotManagerFactory;
-import com.example.parkinglot.registry.SpotRegistry;
-import com.example.parkinglot.strategy.ParkingStrategy;
+import parkinglot.factory.ParkingSpotManagerFactory;
+import parkinglot.registry.SpotRegistry;
+import parkinglot.strategy.ParkingStrategy;
 
 import java.time.LocalDateTime;
 import java.util.List;

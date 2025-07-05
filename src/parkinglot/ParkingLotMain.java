@@ -1,12 +1,13 @@
-package com.example.parkinglot;
+package parkinglot;
 
-import com.example.parkinglot.enums.VehicleType;
+import parkinglot.enums.VehicleType;
 import com.example.parkinglot.models.*;
-import com.example.parkinglot.registry.SpotRegistry;
-import com.example.parkinglot.strategy.DefaultParkingStrategy;
-import com.example.parkinglot.strategy.FarthestToGateParkingStrategy;
-import com.example.parkinglot.strategy.NearestToGateParkingStrategy;
-import com.example.parkinglot.strategy.ParkingStrategy;
+import parkinglot.models.*;
+import parkinglot.registry.SpotRegistry;
+import parkinglot.strategy.DefaultParkingStrategy;
+import parkinglot.strategy.FarthestToGateParkingStrategy;
+import parkinglot.strategy.NearestToGateParkingStrategy;
+import parkinglot.strategy.ParkingStrategy;
 
 import java.util.*;
 

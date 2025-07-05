@@ -1,4 +1,4 @@
-import com.example.parkinglot.ParkingLotMain;
+import parkinglot.ParkingLotMain;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.parkinglot.models;
+package parkinglot.models;
 
 public abstract class Gate {
 

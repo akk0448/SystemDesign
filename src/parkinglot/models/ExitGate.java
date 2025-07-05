@@ -1,6 +1,6 @@
-package com.example.parkinglot.models;
+package parkinglot.models;
 
-import com.example.parkinglot.registry.SpotRegistry;
+import parkinglot.registry.SpotRegistry;
 
 public class ExitGate extends Gate {
 

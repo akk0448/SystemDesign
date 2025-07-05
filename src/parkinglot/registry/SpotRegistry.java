@@ -1,7 +1,7 @@
-package com.example.parkinglot.registry;
+package parkinglot.registry;
 
-import com.example.parkinglot.enums.VehicleType;
-import com.example.parkinglot.models.ParkingSpot;
+import parkinglot.enums.VehicleType;
+import parkinglot.models.ParkingSpot;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

@@ -1,6 +1,6 @@
-package com.example.parkinglot.models;
+package parkinglot.models;
 
-import com.example.parkinglot.strategy.ParkingStrategy;
+import parkinglot.strategy.ParkingStrategy;
 
 import java.util.List;
 

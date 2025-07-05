@@ -1,8 +1,8 @@
-package com.example.parkinglot.models;
+package parkinglot.models;
 
 import java.time.LocalDateTime;
 
-import static com.example.parkinglot.utils.ApplicationUtils.generateTicketId;
+import static parkinglot.utils.ApplicationUtils.generateTicketId;
 
 public class Ticket {
 
