@@ -1,7 +1,6 @@
 package parkinglot;
 
 import parkinglot.enums.VehicleType;
-import com.example.parkinglot.models.*;
 import parkinglot.models.*;
 import parkinglot.registry.SpotRegistry;
 import parkinglot.strategy.DefaultParkingStrategy;
